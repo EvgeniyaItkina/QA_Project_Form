@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <form action="https://cyberstars.onrender.com/qa-exercises/new-customer-registers/json" method="get">
+        <h2>Sandwich Order Form</h2>
+
+        <label for="">Choose Bread</label>
+
+        <div class="bread-group">
+            <input type="radio" id="whole-bread" class="bread" name="bread" value="Whole Wheat">
+            <label for="whole-bread">Whole Wheat</label>
+
+            <input type="radio" id="jabeta-bread" class="bread" name="bread" value="Jabeta">
+            <label for="jabeta-bread">Jabeta</label>
+
+            <input type="radio" id="baget-bread" class="bread" name="bread" value="Baget">
+            <label for="baget-bread">Baget</label>
+
+            <input type="radio" id="pita-bread" class="bread" name="bread" value="Pita">
+            <label for="pita-bread">Pita</label>
+        </div>
+
+
+        <label for="">Choose your toppings</label>
+
+        <div class="toppings">
+            <input type="checkbox" id="pickles" name="pickles" value="Pickles">
+            <label for="pickles">Pickles</label>
+
+            <input type="checkbox" id="olives" name="olives" value="Olives">
+            <label for="olives">Olives</label>
+
+            <input type="checkbox" id="tomatoes" name="tomatoes" value="Tomatoes">
+            <label for="tomatoes">Tomatoes</label>
+
+            <input type="checkbox" id="lettuce" name="lettuce" value="Lettuce">
+            <label for="lettuce">Lettuce</label>
+        </div>
+
+        <label>Option for delivery</label>
+
+        <div class="delivery">
+            <input type="radio" id="sending" name="delivery" value="Sending">
+            <label for="sending">Sending</label>
+
+            <input type="radio" id="eating-on-the-place" name="delivery" value="Eating on the spot">
+            <label for="eating-on-the-place">Eating on the spot</label>
+
+            <input type="radio" id="take-away" name="delivery" value="Take away">
+            <label for="take-away">Take away</label>
+        </div>
+
+        <label for="telephone">Telephone</label>
+        <input type="tel" id="telephone" name="telephone">
+
+        <label for="count-sandwiches">How many sandwiches</label>
+        <input type="number" id="count-sandwiches" name="count-sandwiches">
+
+        <label for="branch">Choose branch</label>
+        <select id="branch" name="branch">
+            <option value="center">Center</option>
+            <option value="north">North</option>
+            <option value="south">South</option>
+            <option value="east">East</option>
+            <option value="west">West</option>
+        </select>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+</body>
+
+</html>
